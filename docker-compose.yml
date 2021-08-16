@@ -54,7 +54,7 @@ services:
     volumes:
       - certbot-etc:/etc/letsencrypt
       - wordpress:/var/www/html
-    command: certonly --webroot --webroot-path=/var/www/html --email $EMAIL --agree-tos --no-eff-email --staging -d $BASE_URL -d $BASE_URL
+    command: certonly --webroot --webroot-path=/var/www/html --email $EMAIL --agree-tos --no-eff-email -d $BASE_URL -d $BASE_URL
 
 volumes:
   certbot-etc:
