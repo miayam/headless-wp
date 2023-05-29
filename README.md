@@ -4,10 +4,10 @@ A modest CMS to manage [miayam.io](https://miayam.io) built with WordPress.
 
 What kind of CMS should I use to serve my [Jamstack](https://jamstack.org/) sites?
 
-- A headless CMS that can spew contents in JSON format.
-- Packaged as a Docker image so I can move it around from one free cloud service to another ([AWS free-tier](https://aws.amazon.com/free) for a year and [GCP free-tier](https://cloud.google.com/free) for 90 days) until I finally move it to [DigitalOcean](https://www.digitalocean.com/), the cheapest of them all. Sorry, the maintainer of this repo is very poor 😭.
-- Easy to use.
-- If I got any issues, I can solve it by copy-pasting error message on Google search bar.
+- A headless CMS that can spew contents in JSON format
+- Packaged as a Docker image so I can move it around from one free cloud service to another 
+- Easy to use
+- If I got any issues, I can solve it by copy-pasting error message on Google search bar
 
  WordPress just meets all criteria.
 
